@@ -6,4 +6,4 @@ reducaoAno = anos * 365
 totalMinPerdido = (reducaoMinuto * reducaoAno) * 10
 diasPminutos = 24 * 60
 
-print(f"Você perdeu: {(totalMinPerdido/diasPminutos)/10:.2f} dias de vida.")
+print(f"Você perdeu: {(totalMinPerdido/diasPminutos)/10:.1f} dias de vida.")
